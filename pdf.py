@@ -36,7 +36,7 @@ while True:
     elif not lang.isalpha():
         
         tts("Veuillez choisir le nom d'une langue via des lettres !")
-        messagebox.showerror(title="Traducteur PDF :", message="Veuillez chioisir le nom d'une langue viad des lettres !")
+        messagebox.showerror(title="Traducteur PDF :", message="Veuillez chioisir le nom d'une langue via des lettres !")
 
     explorer = askopenfilename()
 
